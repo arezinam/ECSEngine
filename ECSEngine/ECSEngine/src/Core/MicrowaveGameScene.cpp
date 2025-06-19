@@ -297,7 +297,7 @@ void MicrowaveGameScene::Render() {
 		currentY -= lineHeight;
 		m_fontRenderer->renderText("  Reset timer input -> DELETE", controlPaddingX, currentY, controlTextScale, controlsColor);
 		currentY -= lineHeight;
-		m_fontRenderer->renderText("  Break Microwave -> B", controlPaddingX, currentY, controlTextScale, controlsColor);
+		m_fontRenderer->renderText("  Break Microwave -> X", controlPaddingX, currentY, controlTextScale, controlsColor);
 		currentY -= lineHeight;
 		m_fontRenderer->renderText("  Repair Microwave -> R", controlPaddingX, currentY, controlTextScale, controlsColor);
 		currentY -= lineHeight;
